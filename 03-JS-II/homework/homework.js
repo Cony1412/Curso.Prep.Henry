@@ -117,7 +117,7 @@ function fizzBuzz(numero) {
   } else if(numero % 3 === 0 || numero % 5 === 0) {
     return fizzbuzz;
   } else {
-    return numero
+    return numero;
   }
 }
 function operadoresLogicos(num1, num2, num3) {
@@ -136,7 +136,7 @@ function operadoresLogicos(num1, num2, num3) {
   } else if(num1 === 0 || num2 === 0 || num3 === 0){
     return "Error";
   } else {
-    return false
+    return false;
   }
 }
 
@@ -164,9 +164,9 @@ function esVerdadero(valor){
   //si su valor es true y “Soy falso” si su valor es false.
   //Escribe tu código aquí
 if(valor === true) {
-  return "Soy verdadero"
+  return "Soy verdadero";
 }
-return "Soy falso"
+return "Soy falso";
 }
 
 function tablaDelSeis(){
